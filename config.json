@@ -1,0 +1,24 @@
+{
+  "spreadsheetKey": "some-key",
+  "spreadsheetId": "1RtPqLGExl0_3AvuiBvKVHS1-PiiSnUYMFm3yfV0ee9c",
+  "timeout": 1000,
+  "flagCell": "A1",
+  "fields": {
+    "field1": "A3",
+    "field2": "D2",
+    "field4": [
+      "A4",
+      "A5",
+      "A7",
+      "B7",
+      "F9"
+    ],
+    "field5": "E1",
+    "field6": [
+      "A9",
+      "A10",
+      "A11",
+      "B12"
+    ]
+  }
+}

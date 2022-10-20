@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "folio-aus",
+  "private_key_id": "50e81de33d9a2cb112d21e1993e15ae53a272bec",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDSMaFjaeMp3UrX\neTQWgTI9k5TcKpI5Ew1kjOt0fQmOzzaGrLogQMDx/uUP1zW94fsQ0L1PgxrTIRl/\nkdAv54l0BFyj0QtN7+RLv3wv3F1nkVDNrhGukRO/+n/tMgm5seH9WEB0fW6BuscC\nf5465u6uWhIUusMGclUB15d8KaX3WIxZy8qPafZnPDDVCo0R7YnMkF16fRGLKQS/\nGSK/ARpHgY7ALPumyUsWLq7GezbFlz9IjT4YpEwAF/4r388Qz6RAy+qq9Cq2fsX1\nmfNGY2ae89ksuweipoJJjsqrlENMjXXPkQw0zWYwJD78gIIWTV6sRkPV+V+1LPdK\n9K0AeVMdAgMBAAECggEAKE46C00nsURs8IqeUV5u2t3s4pcLOQSNQeW/1LORXKAh\nbYu7mSmxlfXxyKrU9FdcBGpykseqIigrsomsaTM16VhYx1TznPtORLQwRSE1jAGS\nhA5H97h8GAkZ9MrukHwqwKDmoy/WO+wr8y+zkMntpONCqlTxxs+vu02zD60Q1S/9\nqju7G2qGh2FkvEtZfzq6362aVe5lnIw6sudsF4gAM+qWPW6j8mLQWitRd9EKwXg6\nOiwMNn09NDiyQU7BoQ4VDj0VIJmV0yFoJ85AGjlHAiK/UOLU5paYYzh57IlJSf6L\nlU9YXmFMepoIQpPS/K/NQyzFbHXWzQzOrZl5J1s35QKBgQDqEg09MJXH4p3ZT5HI\nFQoxFeHdmK/4wtgDSkf+VhTL4OsezVVd7kDKJerfg0e2ztjHdDantWUMYH1PT3Tf\n5eNhdYLJGuOjAoMjJC44XYb/j5EbJuE9XUoWdO3ExFjSwFU5jvevZ6vj1qcIMuvn\nHcaB7RSx6QWuQCfqP+xCVTkpQwKBgQDl4uvPKkeVX0fIsAZPZU3iP79Dsh5YTMAV\nLCwT3qTkQAes6wW1IFkGTnyR8ZCfoUnuzqYwUahorn9QujcCpWCyvttN+kNyzvL+\nMnq+ynCIzl33X8jtbCMOuCdDhlLuRUq4ZSAaAtCULRIBV6US51vHcIAgyAjfnp/5\n/PQcrC4cHwKBgG+YDaHHoRE8FH9/dQRMK6C9SwLIAdV6p1viNTKnvaB56f60bGes\n6Ey4CSNoxm78bNOir1ADplphQjzmp9T7GA3l5WWVoUOdNgIyBKsww+ThgI/OWIJW\nELVmJ9mwtpw7wCYB6EpDBetI8jdxd5CnXHWjH0O20dOCmMUQlsYFNYxbAoGBALQL\nhaQ6+NWESjRjqI2GSflo8+ORHTMK6WWrstndBke93kUPzOiO7SqDTgz/pMVhDQZ7\n0q0FR2C1SgFv1qW74IAd+qSX3TuN2cI8xuWmp3x+JBoaasOIbeyZTicUjN8QZfUF\nPp8glTt4ESH8As1LZhZNhgwmnsyE78Za1tWeBH8BAoGAer0vocLM+pWlK2yOJTUT\nl2pUTAevt3KAp4xmqaMmCcPxPFCJ+UJCohIIbTIBo15ruftAho+e+AhM4SE7L7pu\nMmSFEFCsRwjAQ1wyiSLHu3bxvqq1KcxizNr51BLL0Sw3bMGGmgbMRfrDAlm6QW53\nghVd25XSjT1fUG3usbwfO7w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "reading-from-gs-115@folio-aus.iam.gserviceaccount.com",
+  "client_id": "107160574971235200687",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reading-from-gs-115%40folio-aus.iam.gserviceaccount.com"
+}

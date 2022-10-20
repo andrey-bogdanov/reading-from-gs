@@ -1,0 +1,19 @@
+{
+  "name": "reading-from-gs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "google-Spreadsheet": "^3.3.0",
+    "knex": "^2.3.0",
+    "pg": "^8.8.0",
+    "uuid": "^9.0.0"
+  }
+}

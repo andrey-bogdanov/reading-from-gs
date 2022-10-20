@@ -1,0 +1,11 @@
+{
+  "id": "uuid",
+  "page": "page",
+  "field1": "value",
+  "field2": "value",
+  "field3": [
+    "value",
+    "value",
+    "value"
+  ]
+}

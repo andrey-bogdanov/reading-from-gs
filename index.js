@@ -50,7 +50,7 @@ function readDataFromCells(sheet, fieldName) {
 
 function sleep() {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(), 1000)
+    setTimeout(() => resolve(), 1000);
   })
 }
 
@@ -79,7 +79,8 @@ async function readDataFromSpreadsheet() {
         fields: dataFromSheet,
         page: sheet.title,
         time: new Date(),
-        spreadsheetId: config.spreadsheetId
+        spreadsheetId: config.spreadsheetId,
+        spreadsheetKey: config.spreadsheetKey
       }
       dataFromSheets.push(data);
     };
@@ -90,15 +91,21 @@ async function readDataFromSpreadsheet() {
 };
 
 // функция записи данных в таблицу БД
-// Принимает dataFromSheet: массив из объектов данных вкладок таблицы и пишет его в базу
-// ничего не возвращает
-async function saveDataToDataBase(dataFromSheetTabsArray) {
+// // Принимает dataFromSheet: массив из объектов данных вкладок таблицы и пишет его в базу
+// // ничего не возвращает
+function saveDataToDataBase(dataFromSheetTabsArray) {
+  console.log(dataFromSheetTabsArray);
 };
+
 
 async function main() {
   const dataFromSheetTabsArray = await readDataFromSpreadsheet();
-  console.log(dataFromSheetTabsArray);
+  saveDataToDataBase(dataFromSheetTabsArray);
+  return dataFromSheetTabsArray
 };
+
+
+main();
 
 // const knexConfig = {
 //   client: 'pg',
@@ -108,4 +115,7 @@ async function main() {
 
 // const knex = knexTemp(knexConfig);
 
-main();
+
+
+
+

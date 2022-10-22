@@ -3,7 +3,9 @@
  * @returns { Promise<void> }
  */
 exports.up = function (knex) {
-  return knex.schema.dropTable('test_table')
+  return knex.schema.alterTable("data_from_gs", function (table) {
+    table.dropColumn("timeout");
+  });
 };
 
 /**
@@ -11,8 +13,7 @@ exports.up = function (knex) {
  * @returns { Promise<void> }
  */
 exports.down = function (knex) {
-  return knex.schema.createTable('test_table', function (table) {
-    table.increments('id');
-    table.string('something_important').notNullable();
+  return knex.schema.alterTable("data_from_gs", function (table) {
+    table.integer("timeout");
   });
 };

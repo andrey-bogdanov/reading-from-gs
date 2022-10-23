@@ -1,8 +1,8 @@
 module.exports = {
   client: 'pg',
-  connection: process.env.PG_CONNECTION_STRING
-    || {
+  connection: {
     user: 'postgres',
     database: 'reading_from_gs'
-  }
+  },
+  searchPath: ['knex', 'public']
 };

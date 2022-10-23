@@ -15,7 +15,7 @@ const FIELD_NAMES = Object.keys(config.fields);
 // Считывает данные если в определенной ячейке вкладки установлен флаг
 // Возвращает данные одной вкладки
 async function readDataFromSheet(sheet) {
-  console.log("загрузка данных из вкладки", sheet.title);
+  console.log("Загрузка данных из вкладки", sheet.title);
   await sheet.loadCells(config.flagCell); // загрузка значения флага из ячейки флага
   const flag = sheet.getCellByA1(config.flagCell).value;
   if (flag === true) {
@@ -64,7 +64,7 @@ function sleep() {
 // функция формирования данных со всего файла GS. бежит по документу и формирует 
 // данные со всего файла, возвращает массив из объектов данных вкладок таблицы 
 async function readDataFromSpreadsheet() {
-  console.log("установка соединения")
+  console.log("Установка соединения")
   // установка связи с таблицей
   const doc = new GoogleSpreadsheet(config.spreadsheetId);
   // аутентикация 
@@ -76,7 +76,7 @@ async function readDataFromSpreadsheet() {
   // загрузка документа
   await doc.loadInfo();
 
-  console.log("загрузка данных из spredsheet")
+  console.log("Загрузка данных из spredsheet")
 
   const dataFromSheets = [];
   for (const sheet of doc.sheetsByIndex) {
@@ -93,7 +93,7 @@ async function readDataFromSpreadsheet() {
     };
     await sleep()
   }
-  console.log("объект данных сформирован");
+  console.log("Объект данных сформирован");
   console.log(dataFromSheets);
   return dataFromSheets;
 };
